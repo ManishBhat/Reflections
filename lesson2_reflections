@@ -1,0 +1,9 @@
+Q1)What happens when you initialize a repository? Why do you need to do it?
+
+A new folder .git is created that stores meta-data required to create a Git Repository. However, no commit is created as Git believes in manual commits rather than auto-commits.
+
+Q2)How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+A staging area is essentially a "holding area" for changes to be committed the next time "git commit" is called.
+It allows us to divide large changes in to small logical commits. We can only send files relevant to a given logical change into the staging area.
+Staging area also helps us review the change we are planning to commit. This is because we have not yet committed the changes.
