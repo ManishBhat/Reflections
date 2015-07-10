@@ -11,3 +11,9 @@ Staging area also helps us review the change we are planning to commit. This is 
 Q3)How can you use the staging area to make sure you have one commit per logical change?
 
 See previous question.
+
+Q4)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+It is useful when one is making multiple versions of the same project to be used for different purposes. By making branches one can work on each version separately. For each version separate commits can be made. The chance of confusing  between the different versions is reduced.
+Example:- Make easy,medium and difficult versions of the game using branches.
+Example:- Solve same project using differnet algorithms(ex: greedy and dp) to check the more optimal algorithm.
