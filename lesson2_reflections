@@ -17,3 +17,8 @@ Q4)What are some situations when branches would be helpful in keeping your histo
 It is useful when one is making multiple versions of the same project to be used for different purposes. By making branches one can work on each version separately. For each version separate commits can be made. The chance of confusing  between the different versions is reduced.
 Example:- Make easy,medium and difficult versions of the game using branches.
 Example:- Solve same project using differnet algorithms(ex: greedy and dp) to check the more optimal algorithm.
+
+Q5)How do the diagrams help you visualize the branch structure?
+
+Node representation is easily done with the help of branches. Diagram closely mimics the real-life tree structure with multiple branches.
+
