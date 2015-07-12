@@ -22,3 +22,7 @@ Q5)How do the diagrams help you visualize the branch structure?
 
 Node representation is easily done with the help of branches. Diagram closely mimics the real-life tree structure with multiple branches.
 
+Q6)What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Git merges the 2 branches based on the most recent nodes on the branches and the first common node between them.
+We merge the 2 branches into a single new node.
