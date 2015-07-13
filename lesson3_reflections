@@ -1,3 +1,14 @@
 Q1)When would you want to use a remote repository rather than keeping all your work local?
 
 Remote repositories are versions of our project that we have hosted on the Internet or some network. Through the use of remote repositories, others can collaborate on the project.
+
+Q2)Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+I had some difficulty in answering this question for the case of "pull". For "push", this question is easy to answer. There may be some features I am working on,in my computer. These I may not wish to share with the public, until satisfactory completion. I can't think of a concrete reason for "pull". One reason might be that manual updation, allows us to choose logical commits as taught in Lesson 1. 
+
+
+Q3)Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Branch is a pointer pointing to a given commit. "master" is the main branch. To make an easy-version of a game, we may branch off with "easy-mode" branch.
+Clone is a copy of a Git repository with its entire history.
+Fork is a special case of clone relevant only for GitHub. A GitHub based repository is copied to create another GitHub based repository. It has numerous cool properties like providing appropriate credit to the original author. 
