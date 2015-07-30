@@ -1,21 +1,21 @@
-Q1)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+Q1) How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
 
 Having easy access to the entire history of a file allows me to make major changes fearlessly. Without previous history one is forced to make only baby-changes to the code, as major changes might adversely affect the whole file.
 
-Q2)How can you use the commands git log and git diff to view the history of files?
+Q2) How can you use the commands git log and git diff to view the history of files?
 
-"git log" is used to view all changes to the project since it was made. THe changes are seen in the form ofommits.
-"git diff" is used to compare the difference between two files and check the changes made to the project between two commits.
+"Git log" is used to view all changes to the project since it was made. The changes are seen in the form of commits.
+"Git diff" is used to compare the difference between two files and check the changes made to the project between two commits.
 
-Q3)How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Q3) how did viewing a diff between two versions of a file help you see the bug that was introduced?
 
 We could check the time the bug was introduced by testing different versions of the file. By viewing the difference between the version of the file where the bug is present and where the bug isn't we can also identify the bug added.
 
-Q4)Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Q4) why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
 
 Git and Google Docs cater to different communities. 
-Git caters largely to prrogrammers working on large software projects. They would desire to make changes across multiple files of the same project at the same time. This is done because all the files that are part of the project are intimately connected and can't be handled independantly.
-Google Docs caters to general users. Their files are mostly independant of each other. Thus treating files separately is a better option for Google Docs.
+Git caters largely to programmers working on large software projects. They would desire to make changes across multiple files of the same project at the same time. This is done because all the files that are part of the project are intimately connected and can't be handled independently.
+Google Docs caters to general users. Their files are mostly independent of each other. Thus treating files separately is a better option for Google Docs.
 
 Q5)What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google docs does?
 
@@ -23,14 +23,14 @@ Pros
 Manual commits are more flexible. One can make a commit for every logical change. In automatic commits, this flexibility is lost.
 
 Cons
-The user may forget to make manual commits at the correct time. Automatic commits are better in this regard.
+The user may forget to make manual commits. Automatic commits are better in this regard.
 
-Q6)How might using version control make you more confident to make changes that could break something?
+Q6) How might using version control make you more confident to make changes that could break something?
 
 I have got a previous history of commits. Thus, after making major changes, I can simply go back to a previous version of the file and work on it in case I break something.
 
-Q7)Now that you have your workspace set up, what do you want to try using Git for?
+Q7) Now that you have your workspace set up, what do you want to try using Git for?
 
-I will use GitNow that you have your workspace set up, what do you want to try using Git for?
+Now that you have your workspace set up, what do you want to try using Git for?
 
- from now on for any large software projects I get in college. I have been stunned by the beauty and convinience of Git. It organises the project development work. It forces me to document my changes which is the way one should work on any project. Gone are the days that I would cryptically save 100 versions of the file on the computer and lose track of what changes were made in each. The love affair begins...
+I will use Git from now on for any large software projects I get in college. I have been stunned by the beauty and convenience of Git. It organizes the project development work. It forces me to document my changes which is the way one should work on any project. Gone are the days that I would cryptically save 100 versions of the file on the computer and lose track of what changes were made in each. The love affair begins...
